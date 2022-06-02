@@ -1,0 +1,25 @@
+{
+  "new-screen": {
+    "prefix": ["screen", "newScreen", "new-screen"],
+    "body": [
+      "import React from 'react';",
+      "import { StyleSheet, Text, View } from 'react-native';\n",
+      "const ${1:ComponentName} = () => {",
+      "return (<View><Text>${1:ComponentName}</Text></View>)};\n",
+      "const styles = StyleSheet.create({});\n",
+      "export default ${1:ComponentName}"
+    ]
+  },
+  "new-component": {
+    "prefix": ["components", "newComponent", "new-component"],
+    "body": [
+      "import React from 'react';",
+      "import { StyleSheet, Text, View } from 'react-native';\n",
+      "export type Props = {};\n",
+      "const ${1:ComponentName}: React.FC<Props> = ({}) => {",
+      "return (<View><Text>${1:ComponentName}</Text></View>)};\n",
+      "const styles = StyleSheet.create({});\n",
+      "export default ${1:ComponentName}"
+    ]
+  }
+}

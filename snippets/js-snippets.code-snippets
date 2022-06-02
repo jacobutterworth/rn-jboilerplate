@@ -1,6 +1,13 @@
 {
   "new-component": {
-    "prefix": ["new", "newComponent", "new-component"],
+    "prefix": [
+      "newComponent",
+      "newScreen",
+      "new-component",
+      "new-screen",
+      "screen",
+      "component"
+    ],
     "body": [
       "import React from 'react';",
       "import { StyleSheet, Text, View } from 'react-native';\n",
