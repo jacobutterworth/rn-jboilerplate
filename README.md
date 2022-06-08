@@ -1,4 +1,4 @@
-just snippets that I used and save time on writing the same things on repeatedly, to install: 
+just snippets that I used and save time on writing the same things on repeatedly, ** to install: **
 
 git clone
 
@@ -6,7 +6,7 @@ copy folder into `<user home>/.vscode/extensions` and restart vscode
 
 
 
-To use:
+**To use:**
 
 type 'new' in a js or tsx file 
 
